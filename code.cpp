@@ -16,10 +16,10 @@ public:
 	{
 	}
 
-	function_t(float a_different, float b_different)
+	function_t(float a_temp, float b_temp)
 	{
-		a = a_different;
-		b = b_different;
+		a = a_temp;
+		b = b_temp;
 	}
 
 	float solve_function_for(float x)
